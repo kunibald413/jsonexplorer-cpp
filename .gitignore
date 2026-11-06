@@ -1,0 +1,33 @@
+# Build output
+build/
+cmake-build-*/
+*.exe
+*.out
+
+imgui.ini
+data/
+
+# CMake leftovers
+CMakeCache.txt
+CMakeFiles/
+Makefile
+compile_commands.json
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Object files
+*.o
+*.obj
+*.pdb
+
+# Temporary / logs
+*.log
+*.tmp
+*~
